@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.min-height-70 {
+  min-height: 70vh;
+}
+
+.btn {
+  @apply px-4 py-2 rounded-full bg-cyan-500 text-white;
+}
